@@ -1,0 +1,409 @@
+@import "../mixin.scss";
+
+$cWhite: white;
+$cBlack: black;
+$cMenuClose: $cWhite;
+$cMenuOpen: $cWhite;
+$cSubTitle: #535353;
+
+
+/*==================for mobile========================*/
+@media screen and (max-width: 40rem){
+
+#container{
+  background-color: $cWhite;
+}
+
+.header{
+  background-color: $cWhite;
+}
+
+.mobile-menu{
+  &__cover{
+    background-color: rgba(233, 219, 206, 0.541);
+  }
+
+  &__btn{
+    & > span{
+      background-color: rgb(233, 219, 206);
+    }
+  }
+}
+
+.main-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(170, 158, 145);
+}
+
+.sub-title {
+  display: block;
+  font-size: 14px;
+  color:rgb(233, 219, 206) ;
+}
+
+.title{
+  & h1{
+    position: relative;
+    z-index: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(170, 158, 145);
+  }
+}
+
+.intro{
+  margin: 10px;
+  border: solid 2px rgba(233, 219, 206, 0.541);
+  padding: 20px;
+
+  & h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  & p{
+    font-size: 15px;
+  }
+}
+.prd__ordinary{
+    & img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -99;
+    }
+}
+
+.prd{
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  z-index: -99;
+
+  &--hidden{
+    opacity: 0;
+    transform: translateY(8rem);
+  }
+
+  &__toner {
+
+    & img{
+    width: 300px;
+    height: 300px;
+    }
+
+    & .details{
+    margin-right: 50px;
+    background-color: rgba(233, 219, 206, 0.541);
+    padding: 10px;
+    }
+
+    & h3{
+      font-size: 13px;
+    }
+
+    & p{
+      font-size: 10px;
+    }
+  }
+
+
+  &__moisture {
+
+    img{
+    width: 300px;
+    height: 300px;
+    }
+
+    & .details{
+      margin-left: 50px;
+      background-color: rgba(233, 219, 206, 0.541);
+      padding: 20px;
+      }
+  
+      & h3{
+        font-size: 13px;
+      }
+  
+      & p{
+        font-size: 10px;
+      }
+  }
+
+  &__serum {
+    
+    img{
+    width: 300px;
+    height: 300px;
+    }
+
+    & .details{
+
+      margin-right: 50px;
+      background-color: rgba(233, 219, 206, 0.541);
+      padding: 20px;
+      }
+  
+      & h3{
+        font-size: 13px;
+      }
+  
+      & p{
+        font-size: 10px;
+      }
+  }
+}
+
+.border{
+  border-style: none;
+  background-color: rgba(233, 219, 206, 0.541);
+  height: 2px;
+  width: 100%;
+}
+
+.media{
+  position: relative;
+  height: 200px;
+
+  &__img img{
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    z-index: -99;
+  }
+
+  &__icon{
+    position: absolute;
+    right: 10px;
+    top: 170px;
+
+    display: flex;
+    & .homepage{
+      &:hover{
+        opacity: 0.5;
+      }
+    }
+    & .facebook{
+      &:hover{
+        opacity: 0.5;
+      }
+    }
+    & .instagram{
+      &:hover{
+        opacity: 0.5;
+      }
+    }
+    & .youtube{
+      &:hover{
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.back_arrow{
+  &:hover{
+    opacity: 0.5;
+  }
+}
+
+.footer{
+  background-color: rgb(233, 219, 206);
+}
+}
+
+/*=======================for laptop===================*/
+@media screen and (min-width: 40rem){
+
+  #container{
+    background-color: $cWhite;
+  }
+  
+  .header{
+    background-color: $cWhite;
+  }
+
+  .main-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(170, 158, 145);
+  }
+
+  .sub-title {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color:rgb(233, 219, 206) ;
+  }
+  
+  .title{
+    & h1{
+      font-size: 80px;
+    }
+  }
+
+  .intro{
+    margin: 10px;
+    border: solid 2px rgba(233, 219, 206, 0.541);
+    padding: 20px 80px;
+  
+    & h2{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 40px;
+    }
+    & p{
+      font-size: 18px;
+    }
+  }
+  .prd__ordinary{
+      & img{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      z-index: -99;
+      }
+  }
+  
+  .prd{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    z-index: -99;
+
+    &--hidden{
+      opacity: 0;
+      transform: translateY(4rem);
+    }
+
+    &__toner {
+
+      & img{
+      width: 500px;
+      height: 500px;
+      }
+  
+      & .details{
+      margin-right: 50px;
+      background-color: rgba(233, 219, 206, 0.541);
+      padding: 10px;
+      }
+  
+      & h3{
+        font-size: 20px;
+      }
+  
+      & p{
+        font-size: 15px;
+      }
+    }
+  
+  
+    &__moisture {
+  
+      img{
+      width: 500px;
+      height: 500px;
+      }
+  
+      & .details{
+        margin-left: 50px;
+        background-color: rgba(233, 219, 206, 0.541);
+        padding: 20px;
+        }
+    
+        & h3{
+          font-size: 20px;
+        }
+    
+        & p{
+          font-size: 15px;
+        }
+    }
+  
+    &__serum {
+      
+      img{
+      width: 500px;
+      height: 500px;
+      }
+  
+      & .details{
+  
+        margin-right: 50px;
+        background-color: rgba(233, 219, 206, 0.541);
+        padding: 20px;
+        }
+    
+        & h3{
+          font-size: 20px;
+        }
+    
+        & p{
+          font-size: 15px;
+        }
+    }
+  }
+  
+  .border{
+    border-style: none;
+    background-color: rgba(233, 219, 206, 0.541);
+    height: 2px;
+    width: 100%;
+  }
+  
+  .media{
+    position: relative;
+    height: 50vh;
+  
+    &__img img{
+      position: absolute;
+      left: 0;
+      width: 780px;
+      height: 400px;
+      z-index: -99;
+    }
+  
+    &__icon{
+      position: absolute;
+      right: 300px;
+      top: 320px;
+  
+      display: flex;
+      & .homepage{
+        &:hover{
+          opacity: 0.5;
+        }
+      }
+      & .facebook{
+        &:hover{
+          opacity: 0.5;
+        }
+      }
+      & .instagram{
+        &:hover{
+          opacity: 0.5;
+        }
+      }
+      & .youtube{
+        &:hover{
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+  
+  .back_arrow{
+    &:hover{
+      opacity: 0.5;
+    }
+  }
+
+  .footer{
+    background-color: rgb(233, 219, 206);
+  }
+}

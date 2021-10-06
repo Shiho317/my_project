@@ -1,0 +1,626 @@
+/*==================for mobile========================*/
+@media screen and (max-width: 40rem) {
+  body {
+    background-color: #cddbd6;
+    font-family: 'Playfair Display', serif;
+  }
+  #container {
+    background-color: #cddbd6;
+  }
+  .header {
+    background-color: #cddbd6;
+  }
+  .mobile-menu__cover {
+    background-color: #a5b6b1;
+  }
+  .mobile-menu__btn > span {
+    background-color: #7f8d83;
+  }
+  .main-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #5e7264;
+  }
+  .sub-title {
+    display: block;
+    font-size: 14px;
+    color: #a5b6b1;
+  }
+  .title h1 {
+    position: relative;
+    z-index: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #5e7264;
+  }
+  .intro {
+    margin: 10px;
+    border: solid 2px #5e7264;
+    padding: 20px;
+  }
+  .intro h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  .intro p {
+    font-size: 15px;
+  }
+  .bestcafe {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .bestcafe--hidden {
+    opacity: 0;
+    -webkit-transform: translateY(4rem);
+            transform: translateY(4rem);
+  }
+  .bestcafe h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  .bestcafe .nero {
+    display: block;
+  }
+  .bestcafe .nero__btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    color: white;
+    background-color: unset;
+    padding: 15px;
+    border: solid 2px #a5b6b1;
+    outline: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+    z-index: 99;
+  }
+  .bestcafe .nero__btn:hover {
+    color: white;
+    background-color: #a5b6b1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+  .bestcafe .nero__1 {
+    width: 70%;
+    height: 70%;
+  }
+  .bestcafe .nero__2 {
+    width: 70%;
+    height: 70%;
+  }
+  .bestcafe .nero h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  .bestcafe .breka {
+    display: block;
+  }
+  .bestcafe .breka__btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    color: white;
+    background-color: unset;
+    padding: 15px;
+    border: solid 2px #a5b6b1;
+    outline: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .bestcafe .breka__btn:hover {
+    color: white;
+    background-color: #a5b6b1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+  .bestcafe .breka img {
+    width: 70%;
+    height: 70%;
+  }
+  .bestcafe .breka h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  .bestcafe .honeys {
+    display: block;
+  }
+  .bestcafe .honeys__btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    color: white;
+    background-color: unset;
+    padding: 15px;
+    border: solid 2px #a5b6b1;
+    outline: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .bestcafe .honeys__btn:hover {
+    color: white;
+    background-color: #a5b6b1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+  .bestcafe .honeys__1 {
+    width: 70%;
+    height: 70%;
+  }
+  .bestcafe .honeys__2 {
+    width: 70%;
+    height: 70%;
+  }
+  .bestcafe .honeys h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  .best_restaurant {
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .best_restaurant h2 {
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  .best_restaurant p {
+    font-family: 'Playfair Display', serif;
+  }
+  .border1 {
+    border-style: none;
+    background-color: #5e7264;
+    height: 2px;
+    width: 100%;
+  }
+  .border2 {
+    border-style: none;
+    background-color: #5e7264;
+    height: 2px;
+    width: 100%;
+  }
+  .border3 {
+    border-style: none;
+    background-color: #5e7264;
+    height: 2px;
+    width: 100%;
+  }
+  .border4 {
+    border-style: none;
+    background-color: #5e7264;
+    height: 2px;
+    width: 100%;
+  }
+  .comment {
+    height: 80vh;
+    display: inline-block;
+    text-align: center;
+  }
+  .comment p {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+  .comment .input {
+    position: relative;
+    display: block;
+  }
+  .comment .input__name {
+    margin: 30px;
+  }
+  .comment .input__name .user {
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    outline: none;
+    border: solid 2px #a5b6b1;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+  }
+  .comment .input__name .place {
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    outline: none;
+    border: solid 2px #a5b6b1;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+  }
+  .comment .input__comment .comment {
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    background-color: white;
+    outline: none;
+    border: solid 2px #a5b6b1;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+  }
+  .comment .input .submit {
+    margin-top: 30px;
+  }
+  .comment .input .submit__btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: #a5b6b1;
+    padding: 10px 20px;
+    border: solid 2px #a5b6b1;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .comment .input .submit__btn:hover {
+    color: #a5b6b1;
+    background-color: white;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+  .back_arrow:hover {
+    opacity: 0.5;
+  }
+  .footer {
+    background-color: #5e7264;
+  }
+}
+
+/*=======================for laptop===================*/
+@media screen and (min-width: 40rem) {
+  body {
+    background-color: #cddbd6;
+  }
+  #container {
+    background-color: #cddbd6;
+  }
+  .header {
+    background-color: #cddbd6;
+  }
+  .mobile-menu__cover {
+    background-color: #a5b6b1;
+  }
+  .mobile-menu__btn > span {
+    background-color: #7f8d83;
+  }
+  .main-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #5e7264;
+  }
+  .sub-title {
+    display: block;
+    font-size: 14px;
+    color: #a5b6b1;
+  }
+  .title h1 {
+    position: relative;
+    z-index: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #5e7264;
+  }
+  .intro {
+    margin: 10px;
+    border: solid 2px #5e7264;
+    padding: 20px 80px;
+  }
+  .intro h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+  }
+  .intro p {
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+  }
+  .bestcafe {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .bestcafe--hidden {
+    opacity: 0;
+    -webkit-transform: translateY(4rem);
+            transform: translateY(4rem);
+  }
+  .bestcafe h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+  }
+  .bestcafe .nero {
+    position: relative;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px;
+  }
+  .bestcafe .nero__btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    color: white;
+    background-color: unset;
+    padding: 15px;
+    border: solid 2px #a5b6b1;
+    outline: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .bestcafe .nero__btn:hover {
+    color: white;
+    background-color: #a5b6b1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+  .bestcafe .nero__1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    height: 400px;
+    z-index: -99;
+  }
+  .bestcafe .nero__2 {
+    position: absolute;
+    left: 450px;
+    width: 400px;
+    height: 600px;
+    z-index: -100;
+  }
+  .bestcafe .nero__exp {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    width: 450px;
+  }
+  .bestcafe .nero__exp h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #5e7264;
+  }
+  .bestcafe .nero__exp p {
+    font-family: 'Playfair Display', serif;
+  }
+  .bestcafe .breka {
+    position: relative;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .bestcafe .breka__btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    color: white;
+    background-color: unset;
+    padding: 15px;
+    border: solid 2px #a5b6b1;
+    outline: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .bestcafe .breka__btn:hover {
+    color: white;
+    background-color: #a5b6b1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+  .bestcafe .breka img {
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    width: 500px;
+    height: 400px;
+  }
+  .bestcafe .breka__exp {
+    display: block;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 450px;
+  }
+  .bestcafe .breka__exp h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #5e7264;
+  }
+  .bestcafe .breka__exp p {
+    font-family: 'Playfair Display', serif;
+  }
+  .bestcafe .honeys {
+    position: relative;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px;
+  }
+  .bestcafe .honeys__btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    color: white;
+    background-color: unset;
+    padding: 15px;
+    border: solid 2px #a5b6b1;
+    outline: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .bestcafe .honeys__btn:hover {
+    color: white;
+    background-color: #a5b6b1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+  .bestcafe .honeys__1 {
+    position: absolute;
+    top: 230px;
+    left: 350px;
+    width: 500px;
+    height: 400px;
+  }
+  .bestcafe .honeys__2 {
+    position: absolute;
+    left: 50px;
+    width: 400px;
+    height: 400px;
+  }
+  .bestcafe .honeys__exp {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    width: 450px;
+  }
+  .bestcafe .honeys__exp h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #5e7264;
+  }
+  .bestcafe .honeys__exp p {
+    font-family: 'Playfair Display', serif;
+  }
+  .best_restaurant {
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .best_restaurant h2 {
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+  }
+  .best_restaurant p {
+    font-family: 'Playfair Display', serif;
+  }
+  .border1 {
+    border-style: none;
+    background-color: #5e7264;
+    height: 2px;
+    width: 100%;
+  }
+  .border2 {
+    border-style: none;
+    background-color: #5e7264;
+    height: 2px;
+    width: 100%;
+  }
+  .border3 {
+    border-style: none;
+    background-color: #5e7264;
+    height: 2px;
+    width: 100%;
+  }
+  .border4 {
+    border-style: none;
+    background-color: #5e7264;
+    height: 2px;
+    width: 100%;
+  }
+  .comment {
+    height: 30vh;
+  }
+  .comment p {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+  .comment .input {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .comment .input__name {
+    display: block;
+  }
+  .comment .input__name .user {
+    position: absolute;
+    width: 250px;
+    left: 300px;
+    text-align: center;
+    background-color: white;
+    outline: none;
+    border: solid 2px #a5b6b1;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+  }
+  .comment .input__name .place {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    left: 300px;
+    top: 50px;
+    text-align: center;
+    background-color: white;
+    outline: none;
+    border: solid 2px #a5b6b1;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+  }
+  .comment .input__comment .comment {
+    position: absolute;
+    right: 350px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    background-color: white;
+    outline: none;
+    border: solid 2px #a5b6b1;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+  }
+  .comment .input .submit {
+    position: absolute;
+    right: 250px;
+    top: 115px;
+  }
+  .comment .input .submit__btn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: #a5b6b1;
+    padding: 10px 20px;
+    border: solid 2px #a5b6b1;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .comment .input .submit__btn:hover {
+    color: #a5b6b1;
+    background-color: white;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+  .back_arrow:hover {
+    opacity: 0.5;
+  }
+  .footer {
+    background-color: #5e7264;
+  }
+}
+/*# sourceMappingURL=style.css.map */
