@@ -4,6 +4,9 @@
     background-color: #cddbd6;
     font-family: 'Playfair Display', serif;
   }
+  main {
+    margin: 10px;
+  }
   #container {
     background-color: #cddbd6;
   }
@@ -220,7 +223,7 @@
   .comment .input__name .user {
     margin: 20px;
     text-align: center;
-    width: 250px;
+    width: 70%;
     background-color: white;
     outline: none;
     border: solid 2px #a5b6b1;
@@ -228,7 +231,7 @@
     font-family: 'Playfair Display', serif;
   }
   .comment .input__name .place {
-    width: 250px;
+    width: 70%;
     height: 100px;
     text-align: center;
     background-color: white;
@@ -238,7 +241,7 @@
     font-family: 'Playfair Display', serif;
   }
   .comment .input__comment .comment {
-    width: 350px;
+    width: 80%;
     height: 150px;
     text-align: center;
     background-color: white;
@@ -280,6 +283,9 @@
 @media screen and (min-width: 40rem) {
   body {
     background-color: #cddbd6;
+  }
+  main {
+    margin: 10px;
   }
   #container {
     background-color: #cddbd6;
@@ -559,7 +565,7 @@
   }
   .comment .input__name .user {
     position: absolute;
-    width: 250px;
+    width: 20%;
     left: 300px;
     text-align: center;
     background-color: white;
@@ -570,7 +576,7 @@
   }
   .comment .input__name .place {
     position: absolute;
-    width: 250px;
+    width: 20%;
     height: 100px;
     left: 300px;
     top: 50px;
@@ -584,7 +590,7 @@
   .comment .input__comment .comment {
     position: absolute;
     right: 350px;
-    width: 500px;
+    width: 30%;
     height: 150px;
     text-align: center;
     background-color: white;

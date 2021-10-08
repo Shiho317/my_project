@@ -30,11 +30,6 @@ class MobileMenu {
 
 new MobileMenu();
 
-window.onload = function(){
-  let loading = document.querySelector('.load');
-  loading.classList.add('.onload');
-}
-
 
 const menu = document.querySelector('.mobile-menu');
 

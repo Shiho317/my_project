@@ -1,5 +1,10 @@
 console.log('hello js');
 
+window.onload = function(){
+    let loading = document.querySelector('.load');
+    loading.classList.add('.onload');
+}
+
 const allProducts = document.querySelectorAll('.prd');
 console.log(allProducts);
 
