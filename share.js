@@ -31,8 +31,8 @@ class MobileMenu {
 new MobileMenu();
 
 window.onload = function(){
-  let loading = document.querySelector('.onload');
-  loading.classList.add('.load');
+  let loading = document.querySelector('.load');
+  loading.classList.add('.onload');
 }
 
 
