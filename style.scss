@@ -9,6 +9,10 @@ $cSubTitle: #535353;
 /*==================for mobile========================*/
 @media screen and (max-width: 40rem){
 
+  body{
+    background-color: $cBlack;
+}
+
   .big__img{
     width: 100%;
     z-index: 2;
