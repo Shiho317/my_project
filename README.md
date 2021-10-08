@@ -1,36 +1,39 @@
-My first published project!!🎉
+# __My first published project!!🎉__
 
-🌿Life in Vancouver
+## *🌿Life in Vancouver*
 
-Overview
+**Overview**<br/>
+It's been 3 months since I came here, Vancouver. As you know, there is a lot of immigrants and international student like me in this city. That's also mean many people want to know about good foods, good marchandise, good place in here.<br/>
+I was one of them.<br/>
+I've been studying web development.<br/>
+Thus, I came up with idea that I created website which can tell people about Vancouver.<br/>
+I hope you like this website.<br/>
 
-It's been 3 months since I came here, Vancouver. As you know, there is a lot of immigrants and international student like me in this city. That's also mean many people want to know about good foods, good marchandise, good place in here. 
-I was one of them. And also I've been studying web development.
-Thus, I came up with idea that I created website which can tell people about Vancouver. This is why I created this.
+**Table of Contents**<br/>
+✅Home<br/>
+✅Beauty -cosmetics-<br/>
+✅Relax -café, restaurant-<br/>
 
-Table of Contents
-✅Home
-✅Beauty -cosmetics-
-✅Relax -café, restaurant-
+**Features**<br/>
+You can know cosmetics that you can get here and good quality.<br/>
+You can know café and restaurant where is good place for relax and delicious.<br/>
 
-Features
-You can know cosmetics that you can get here and good quality.
-You can know café and restaurant where is good place for relax and delicious.
+**Running the project**<br/>
+*Installation and Usage*<br/>
+ -You just need HTML, CSS, Scss and Javascript.<br/>
 
-Running the project
-Installation and Usage
-You just need HTML, CSS, Scss and Javascript.
-
-From my lepo:
-1. Fetch my lepo.
-2. Clone thiss project locally.
-3. Open the file with your VScode.
-4. Run live server.
+*From my lepo:*<br/>
+1. Fork my repo to your repo.*<br/>
+2. Pull your repo forked to your local.*<br/>
+   or<br/>
+1. Clone this project locally.*<br/>
+2. Open the file with your VScode.<br/>
+3. Run live server.<br/>
 
 
-Dependencies
-You can access my webpage from ((https://compassionate-aryabhata-b81ced.netlify.app)
-I recommend you access from googlechrome.
+**Dependencies**<br/>
+You can access my webpage from (https://compassionate-aryabhata-b81ced.netlify.app).<br/>
+I recommend you access from googlechrome.<br/>
 
 
 
