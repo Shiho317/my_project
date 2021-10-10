@@ -22,7 +22,7 @@ You can know café and restaurant where is good place for relax and delicious.<b
 *Installation and Usage*<br/>
  -You just need HTML, CSS, Scss and Javascript.<br/>
 
-*From my lepo:*<br/>
+*From my repo:*<br/>
 1. Fork my repo to your repo.*<br/>
 2. Pull your repo forked to your local.*<br/>
    or<br/>
